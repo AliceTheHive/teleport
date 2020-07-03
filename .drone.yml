@@ -51,6 +51,7 @@ steps:
         from_secret: QUAYIO_DOCKER_USERNAME
       QUAYIO_DOCKER_PASSWORD:
         from_secret: QUAYIO_DOCKER_PASSWORD
+      REPO: quay.io
     volumes:
       - name: dockersock
         path: /var/run
@@ -1070,6 +1071,6 @@ steps:
 
 ---
 kind: signature
-hmac: 918607ff7eddfdeaa8dba54c5277d704fbb47ae98c961ec2147f54cc714aa9ee
+hmac: a4c346cb6fb0bad88cca331a81001a8b8165ef11fee0b5c309d85fdccba51b9f
 
 ...
